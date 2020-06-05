@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Page Title</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="container">
+		<h1>SUNFLOWERS</h1>
+		<script>
+			function next() {
+				document.getElementById("pic1").src = "pic2.png";
+			}
+			function back(){
+				document.getElementById("pic1").src = "pic1.png";
+			}
+			function read_more(){
+				document.getElementById("h2").innerHTML = "inside you";
+			}
+		</script>
+		<img src="pic1.png" id="pic1" style="align-content: center; justify-content: center;">
+		<button onclick="next()" id="next">NEXT</button>
+		<button onclick="back()" id="back">BACK</button>
+		<h2 id="h2"> Where does peace reside?</h2>
+		<button onclick="read_more()" id="content" style="color:red">READ MORE</button>
+		
+	</div>
+</body>
+</html>

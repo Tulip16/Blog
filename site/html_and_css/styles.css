@@ -90,7 +90,7 @@ p{
 .img-text .subtitle{
 	transition:1s;
 	font-weight:600;
-	font-size: 50;
+	font-size: 3em;
 	color:transparent;
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
@@ -100,8 +100,8 @@ p{
 
 .img-text:hover .subtitle{
 	font-weight: 600;
-	font-size: 50;
-	color: 990000;
+	font-size: 3em;
+	color: #990000;
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
 	justify-content: center;

@@ -1,0 +1,87 @@
+body{
+	background-color: #8585ad;
+}
+
+.nav-wrapper{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 2%;
+}
+
+.left{
+	display: flex;
+}
+
+.nav-wrapper > .left > div{
+	margin-right: 10%;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+
+.nav-link-wrap{
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+
+.nav-link-wrap a{
+	color: white; 
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-link-wrap:hover{
+	border-bottom: 1px solid black;
+}
+
+.nav-link-wrap a:hover{
+	color: pink;
+}
+
+.heading{
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Dancing Script', cursive;
+	font-size: 8vw;
+	height: 0.25em;
+	padding-bottom: 3%;
+	color: black;
+	text-align:center;
+}
+
+form{
+	color: black;
+}
+
+.text{
+	color: black;
+	text-align: center;
+	font-size:2.5vw;
+	padding-top: 4%;
+}
+
+img{
+	float: center;
+	padding-top: 10%;
+	width:60%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+@media only screen and (min-width: 768px){
+	.text{
+	color: black;
+	/*text-align: right;*/
+	font-size:2.5vw;
+	padding-top: 10%;
+	padding-right: 8%;
+	}
+	img{
+	float: left;
+	width: 40%;
+	padding-left: 10%;
+	padding-top:10%;
+	padding-right: 0%;
+	}
+}

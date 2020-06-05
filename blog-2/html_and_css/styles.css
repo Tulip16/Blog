@@ -1,0 +1,150 @@
+
+body{
+	margin:0px;
+	background-color: black;
+}
+
+.container{
+	dispay:grid;
+	grid-template-columns: 1fr;
+	padding: 4%;
+}
+
+
+.nav-wrapper{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 1%;
+}
+
+.left{
+	display: flex;
+}
+
+.nav-wrapper > .left > div{
+	margin-right: 10%;
+	font-size: 2vw;
+	text-transform: uppercase;
+}
+
+.nav-wrapper > .right > div{
+	font-size: 2vw;
+}
+
+.nav-link-wrap{
+	height: 5%;
+}
+
+.nav-link-wrap a{
+	color: white; 
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+
+.nav-link-wrap a:hover{
+	color: aquamarine;
+}
+
+p{
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Dancing Script', cursive;
+	font-size: 10vw;
+	height: 0.25em;
+	padding-bottom: 5%;
+	color: white;
+}
+
+.portfolios{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio{
+	position: relative;
+}
+
+.portfolio-img-background{
+	height: 100px;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: solid;
+	/*border-width: 2em;*/
+	border-color:white;
+}
+.img-text{
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 20px;
+}
+
+.img-text .subtitle{
+	transition:1s;
+	font-weight:600;
+	font-size: 1em;
+	color:transparent;
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	justify-content: center;
+}
+
+
+.img-text:hover .subtitle{
+	font-weight: 600;
+	font-size: 1em;
+	color: #990000;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 0.5px 0.5px black;
+	text-overflow: ellipsis;
+	text-align: center;
+	justify-content: center;
+}
+
+.img-darken{
+	transition: 1s;
+	filter: brightness(10%);
+
+}
+
+h1{
+	font-family: Mistral;
+}
+
+@media only screen and (min-width: 768px){
+	.portfolio-img-background{
+	height: 350px;
+	}
+
+	.img-text{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+
+	.img-text .subtitle{
+		font-size: 3em;
+		text-align: center;
+		justify-content: center;
+		padding-right: 0%;
+	}
+
+	.img-text:hover .subtitle{
+		font-size:3em;
+		text-shadow: 2px 2px black;
+		text-align: center;
+		justify-content: center;
+		padding-right: 0%;
+	}
+
+
+}
+

@@ -1,0 +1,70 @@
+body{
+	background-color: seagreen;
+	padding: 2%;
+}
+
+.nav-wrapper{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding: 1%;
+}
+
+.left{
+	display: flex;
+}
+
+.nav-wrapper > .left > div{
+	margin-right: 10%;
+	font-size: 2vw;
+	text-transform: uppercase;
+}
+
+.nav-wrapper > .right > div{
+	font-size: 2vw;
+}
+
+.nav-link-wrap{
+	height: 5%;
+}
+
+.nav-link-wrap a{
+	color: white; 
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+
+.nav-link-wrap a:hover{
+	color: aquamarine;
+}
+.heading{
+	/*font-family: 'Pacifico', cursive;*/
+	font-family: 'Dancing Script', cursive;
+	font-size: 8vw;
+	height: 0.25em;
+	/*padding-bottom: 50px;*/
+	color: black;
+	text-align:center;
+	/*padding-right: 500px;*/
+}
+
+form{
+	color: black;
+}
+
+.text{
+	color: black;
+	text-align: center;
+	font-size:2.5vw;
+	padding-top: 5%;
+	/*padding-right: 250px;*/
+}
+
+#e-mail{
+	font-size: 2.5vw;
+	justify-content: center;
+	align-content: center;
+	padding-left: 35%;
+	color: purple;
+}

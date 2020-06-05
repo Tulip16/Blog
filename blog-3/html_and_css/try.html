@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Title</title>
+
+<body>
+   <h1 style="color:red; font-size:5em">This is a Heading</h1>
+   <p>This is a paragraph.</p>
+   <p>This is another paragraph.</p>
+   <a onmouseover="this.setAttribute('style','color:red','transition:1s')">wow again</a>
+   <button color="red" text-color="black">Click me</button>
+   <div id="myHeader">MY HEADER</div>
+   <script>
+	function displayResult() {
+  	document.getElementById("myHeader").innerHTML = "Have a nice day!";
+	}
+	</script>
+	<input onclick="displayResult()">press
+	<noscript>oops!</noscript>
+	<!iframe src="index.html" height="200" width="300"></iframe>
+	<picture>
+	  	<source srcset="images/moon.png" media="(max-width: 600px)"><!from 0 to 600 and when you increase the size of the page (100 to 200 per cent) or when you medimize(b/w mini and maxi) the page>
+	  	<source srcset="images/hope.png" media="(max-width: 1500px)"><!from 600 to 1500 o when you don't do anything with the size of the page>
+	  	<source srcset="images/dreamer.png"><!1500 and above or when you decrease the size from 100 to 60>
+	  	<img src="images/quest.png" alt="Flowers">WHERE IS THIS?
+	</picture>
+	<img id="change" src="images/moon.png">
+	<script>
+		document.getElementById("change").srcset="images/quest.png"
+	</script>
+</body>
+
+	</html>
+<!.class-name and #id-name are used to denote divs with the specified features in css>
+<!class can be same for various divs but id is uniwue basically differentiates between divs having the same class>
+

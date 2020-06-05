@@ -1,5 +1,5 @@
 body{
-	background-color: #ccccff;
+	background-color: #8585ad;
 }
 
 .nav-wrapper{
@@ -15,17 +15,14 @@ body{
 
 .nav-wrapper > .left > div{
 	margin-right: 10%;
-	font-size: 2vw;
+	font-size: 0.9em;
 	text-transform: uppercase;
 }
 
-.nav-wrapper > .right > div{
-	font-size: 2vw;
-}
 
 .nav-link-wrap{
-	height: 5%;
-	border-bottom: 1% solid transparent;
+	height: 22px;
+	border-bottom: 1px solid transparent;
 	transition: border-bottom 0.5s;
 }
 
@@ -36,20 +33,19 @@ body{
 }
 
 .nav-link-wrap:hover{
-	border-bottom:1% solid white;
+	border-bottom: 1px solid black;
 }
 
 .nav-link-wrap a:hover{
-	color: red;
+	color: pink;
 }
-
 
 .heading{
 	/*font-family: 'Pacifico', cursive;*/
 	font-family: 'Dancing Script', cursive;
 	font-size: 8vw;
 	height: 0.25em;
-	padding-bottom: 5%;
+	padding-bottom: 3%;
 	color: black;
 	text-align:center;
 }
@@ -62,45 +58,30 @@ form{
 	color: black;
 	text-align: center;
 	font-size:2.5vw;
-	padding-top: 5%;
-	padding-right: 10%;
+	padding-top: 4%;
 }
 
-.text_special{
-	color: black;
-	text-align: center;
-	font-size:2.5vw;
-	padding-top: 5%;
-	padding-right: 10%;
-}
-
-img {
-  	/*float: center;*/
-    max-width: 60%;
+img{
+	float: center;
+	padding-top: 10%;
+	width:60%;
 	padding-left: 20%;
-	padding-right: 20%; 
-	height: auto;
-	/* when the viewport is 800px or smaller */
-  }
-
+	padding-right: 20%;
+}
 
 @media only screen and (min-width: 768px){
-	img {
-	/*float: left;*/
-	float:left;
-	padding-left: 18%;
-	padding-right: 2%;
-	max-width: 40%;
-	height: 100%;
-	}
-
 	.text{
 	color: black;
-	text-align: right;
+	/*text-align: right;*/
 	font-size:2.5vw;
-	padding-top: 5%;
-	padding-right: 10%;
+	padding-top: 10%;
+	padding-right: 8%;
+	}
+	img{
+	float: left;
+	width: 40%;
+	padding-left: 10%;
+	padding-top:10%;
+	padding-right: 0%;
 	}
 }
-
- 

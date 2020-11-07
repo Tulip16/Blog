@@ -1,3 +1,6 @@
+Visit https://tulip16.github.io/Blog/blog-5/html_and_css/index.html to view my blog, developed using html and css only. The creative content is original too!
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Tulip16/coursera-test1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
